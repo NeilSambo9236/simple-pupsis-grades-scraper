@@ -41,18 +41,29 @@ The displayed information includes:
 pip install -r requirements.txt
 ```
 
-### 2. Run the program
+### 2. Create a `.env` file
+
+Create a `.env` file in the project directory using the following format:
+
+```env
+STUDENT_NUMBER=
+PASSWORD=
+
+BIRTH_MONTH=
+BIRTH_DAY=
+BIRTH_YEAR=
+```
+
+Fill in the values with the information associated with your PUPSIS account.
+
+### 3. Run the program
 
 ```bash
 python main.py
 ```
 
-### 3. Enter your PUPSIS credentials
-
-Use your own valid PUPSIS account when prompted by the program.
-
 ## Notes
 
 * This project is intended for personal use and educational purposes.
 * The scraper depends on the current structure of the PUPSIS website. Changes to the website may require updates to the scraper.
-* Do not share or commit your PUPSIS credentials to the repository.
+* Do not share or commit your `.env` file or PUPSIS credentials to the repository.
